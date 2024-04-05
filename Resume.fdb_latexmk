@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1712349573.60819 "c:/Users/ttai8/resume/Resume.tex" "Resume.pdf" "Resume" 1712349575.08468 0
+["pdflatex"] 1712350055.69444 "c:/Users/ttai8/resume/Resume.tex" "Resume.pdf" "Resume" 1712350056.86648 0
   "C:/Users/ttai8/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1712344861 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/ttai8/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1712344865 12668 56f49fadfab66600c9bd9231d38e3680 ""
   "C:/Users/ttai8/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1712344692 24236046 e6dff9cbd7f7bc7f99f9cf860b3ffc13 ""
@@ -74,10 +74,10 @@
   "C:/Users/ttai8/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1699094857 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "C:/Users/ttai8/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/ttai8/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Resume.aux" 1712349574 807 761419f4bf83d722a6b1f94ff75167ed "pdflatex"
-  "Resume.out" 1712349574 577 8f0a693d59665e533e902435ddf71c56 "pdflatex"
-  "Resume.tex" 1712349572 8951 4a26eeca4a29ddb4b10a7a7435e2e51b ""
-  "c:/Users/ttai8/resume/Resume.tex" 1712349572 8951 4a26eeca4a29ddb4b10a7a7435e2e51b ""
+  "Resume.aux" 1712350056 807 761419f4bf83d722a6b1f94ff75167ed "pdflatex"
+  "Resume.out" 1712350056 577 8f0a693d59665e533e902435ddf71c56 "pdflatex"
+  "Resume.tex" 1712350053 8951 4a26eeca4a29ddb4b10a7a7435e2e51b ""
+  "c:/Users/ttai8/resume/Resume.tex" 1712350053 8951 4a26eeca4a29ddb4b10a7a7435e2e51b ""
   (generated)
   "Resume.aux"
   "Resume.log"
