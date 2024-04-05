@@ -1,0 +1,246 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemSkills}[2]{
+  \item\normalsize{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemExperience}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubheadingEducation}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5}\\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingProject}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+    %   \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\newcommand{\resumeSubItemSkills}[2]{\resumeItemSkills{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label={}]}
+\newcommand{\resumeSubHeadingListStartSkillsAwards}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+    \centerline{\textbf{\huge Tai Tran}}\vspace{0.15cm}
+    \centerline{Email : \href{mailto:}{ti.taitran@gmail.com} $|$
+    Mobile : 407-451-8515 $|$
+    GitHub : \href{https://github.com/taiphlosion}{taiphlosion} $|$
+    LinkedIn : \href{https://www.linkedin.com/in/ti-tai-tran/}{ti-tai-tran}}
+% \end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Florida}{Gainesville, FL}
+      {B.S in Computer Science; GPA: 3.24/4.00}{Jan 2022 -- Dec 2025}
+    \resumeItemListStart
+        \resumeItem{Relevant Coursework}
+            {Data Structures and Algorithms, 
+            Software Engineering, 
+            Linear Algebra, 
+            Discrete Mathematics, 
+            Object-Oriented Programming, 
+            Computer Organization,
+            Multimodal Machine Learning,
+            Operating Systems, 
+            Programming Language Concepts
+            }
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {}{}
+%       {}{}
+%       \resumeItemListStart
+%         \resumeItemExperience
+%           {}
+%         \resumeItemExperience
+%           {}
+%         \resumeItemExperience
+%           {}
+%         \resumeItemExperience
+%           {}
+%         \resumeItemListEnd
+%     \resumeSubheading
+%       {}{}
+%       {}{}
+%       \resumeItemListStart
+%         \resumeItemExperience
+%           {}
+%         \resumeItemExperience
+%           {}
+%         \resumeItemExperience
+%           {}
+%         \resumeItemListEnd
+%   \resumeSubHeadingListEnd
+
+%-----------Projects-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    % \resumeSubHeadingListStart
+        \resumeSubheadingProject
+          {CaSMM (Online K-12 Education Website)}{Sep 2023 -- Dec 2023}
+          \resumeItemListStart
+            \resumeItemExperience
+              {Help improve UI and implement new features for an eduational website for children through Agile methodology.}
+            \resumeItemExperience
+              {Utilized technologies such as React, Docker, PostgreSQL, Strapi to incorporate full-stack features.}
+            \resumeItemExperience
+              {Collaborated with teammates using Git, assigning issues, coordinating and participating in sprints as project manager ensuring timely delivery of updates.}
+          \resumeItemListEnd
+        \resumeSubheadingProject
+          {Java Compiler}{Aug 2023 -- Nov 2023}
+          \resumeItemListStart
+            \resumeItemExperience
+              {Collaborated with a partner through Git to develop a comprehensive Java-based compiler.}
+            \resumeItemExperience
+              {Fully implemented features such as lexical analysis, efficient parsing, semantic analysis, and code generation.}
+            \resumeItemExperience
+              {Optimized compiler performance and reliability through the creation of test cases and debugging.}
+          \resumeItemListEnd
+        \resumeSubheadingProject
+          {Tech Lead, Lifestyle Alarm}{Dec 2023 -- Ongoing}
+          \resumeItemListStart
+            \resumeItemExperience
+              {Collaborated with a development team to design and build an innovative alarm system application with Expo Go.}
+            \resumeItemExperience
+              {Implemented features like world clocks, calendar alerts, collaborative alarms, and integration with other platforms.}
+            \resumeItemExperience
+              {Lead management of the project’s GitHub repository along with other Tech Lead, ensuring effective version control.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+%-----------Activities-----------------
+\section{Involvement}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+        {UF Club Quidditch/Quadball}{Gainesville, FL}
+        {Treasurer}{Aug 2023 -- Apr 2024}
+        \resumeItemListStart
+          \resumeItemExperience
+            {Oversee financial planning for current and future expenses, ensuring the club’s operational competitive needs are met.}
+          \resumeItemExperience
+            {Cooperated with UF Rec Sports on event collaboration, facility access, and boosting student engagement}
+          \resumeItemExperience
+            {Led fundraising initiatives to acquire more funds for future operations and actively recruit potential new members.}
+        \resumeItemListEnd
+        \resumeSubheading
+        {UF SASE (Society of Asian Scientists and Engineers)}{Gainesville, FL}
+        {Peer Mentor}{Aug 2023 -- Apr 2024}
+        \resumeItemListStart
+          \resumeItemExperience
+            {Provide one-on-one guidance and support to underclassmen majoring in STEM adjust to university life.}
+          \resumeItemExperience
+            {Worked closely with other peer mentors and SASE officers to identify community needs and how to meet them.}
+          \resumeItemExperience
+            {Collaborated in the planning of community events and workshops promoting diversity and inclusion within STEM.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+          
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStartSkillsAwards
+    \resumeSubItemSkills{Languages}{(Proficient) C++, Python, Java, JavaScript/TypeScript, HTML/CSS, MATLAB, \newline
+    (Familiar) SQL, C, ARM Assembly}
+    \resumeSubItemSkills{Tools}{Git, Jupyter Notebook, Docker, Strapi, React Native, PostgreSQL}
+  \resumeSubHeadingListEnd
+
+%-----------AWARDS-----------------
+\section{Awards}
+  \resumeSubHeadingListStartSkillsAwards
+    \resumeSubItemSkills{University of Florida Dean's List}
+      {College of Engineering (Summer - Fall 2023)}
+    \resumeSubItemSkills{Machen Florida Opportunity Scholars}
+      {Full grant and scholarship package awarded to First-Generation college students}
+  \resumeSubHeadingListEnd
+
+  \section{Activities \& Interests}
+  \resumeSubHeadingListStartSkillsAwards
+    \resumeSubItemSkills{Activities}
+      {Open-Source Club, Club Quidditch/Quadball, Association for Computing Machinery (ACM), Society of Asian 
+      Scientists and Engineers (SASE)}
+    \resumeSubItemSkills{Interests}
+      {Web/App Development, Competitive Programming, Open-Source Projects, AI and Machine Learning}
+  \resumeSubHeadingListEnd
+  
+\end{document}
